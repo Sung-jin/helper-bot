@@ -1,5 +1,5 @@
 package com.example.dto
 
-interface MessageBot: Bot {
+interface MessageBot {
     fun sendMessage(message: String)
 }
