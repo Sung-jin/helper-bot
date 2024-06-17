@@ -1,0 +1,14 @@
+
+server:
+  port: 8088
+  servlet:
+    context-path: /api
+
+---
+
+spring:
+  profiles.active: local
+  data:
+    redis:
+      host: localhost
+      port: 7379
